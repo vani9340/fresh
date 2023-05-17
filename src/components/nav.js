@@ -6,7 +6,7 @@ function Nav(){
     return(
 <BrowserRouter>
     <div class='w-screen min-h-[1115px] bg-gradient-to-b from-[#FAE3B6] flex pt-[35px]'>
-        <div class='font-semibold text-[1.125rem]'>
+        <div class='font-semibold text-[1.5rem]'>
         Fresh
         </div>
 
