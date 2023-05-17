@@ -5,7 +5,7 @@ import Dropdown from './dropdown'
 function Nav(){
     return(
 <BrowserRouter>
-    <div class='w-screen min-h-[1115px] bg-gradient-to-b from-[#FAE3B6] flex pt-[35px]'>
+    <div class='w-screen min-h-[1115px] bg-gradient-to-b from-[#FAE3B6] flex'>
         <div class='font-semibold text-[1.5rem]'>
         Fresh
         </div>
