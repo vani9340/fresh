@@ -1,6 +1,8 @@
 import './App.css'
 import React from "react";
 import Nav from "./components/nav";
+import Part1 from './components/Part1';
+
 // import MenuBar from "./components/menubar";
 
 function App() {
@@ -8,8 +10,8 @@ function App() {
  
 
 <>
-<Nav/>
 
+<Part1/>
 </>
   );
 }
