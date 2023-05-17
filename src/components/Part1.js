@@ -2,7 +2,7 @@ import img1 from './images/img1.svg'
 import Nav from './nav'
 function Part1(){
     return(
-        <div class='w-screen pl-[6.1vw] pr-[20px] min-h-[1115px] bg-gradient-to-b from-[#FAE3B6] max-sm:pt-[1.5rem]  pt-[2.8125rem] '>
+        <div class='min-h-[1115px] bg-gradient-to-b from-[#FAE3B6] max-sm:pt-[1.5rem]  pt-[2.8125rem] '>
 <Nav/>
      <div class='flex flex-col justify-center items-center'>
 <div class='pt-4'>
