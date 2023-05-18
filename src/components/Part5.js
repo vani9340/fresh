@@ -6,12 +6,13 @@ import img5 from './images5/5.svg'
 import img6 from './images5/6.svg'
 import img7 from './images5/7.svg'
 import img8 from './images5/8.svg'
-
+import { BrowserRouter } from 'react-router-dom'
+import {HashLink as Link} from 'react-router-hash-link'
 
 
 function Part5(){
     return(
-        <>
+        <BrowserRouter>
 <div>
     <h1>Our Product</h1>
     <div className="flex">
@@ -22,19 +23,46 @@ function Part5(){
     </div>
 
     <div>
-        <div>
+        <div className='flex'>
             <div className="min-h-[526px] max-w-[318px]">
                 <img src={img1}/>
                 <div></div>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className="min-h-[526px] max-w-[318px]">
+                <img src={img2}/>
+                <div></div>
+            </div>
+            <div className="min-h-[526px] max-w-[318px]">
+                <img src={img3}/>
+                <div></div>
+            </div>
+            <div className="min-h-[526px] max-w-[318px]">
+                <img src={img4}/>
+                <div></div>
+            </div>
         </div>
-        <div></div>
+
+        <div className='flex'>
+        <div className="min-h-[526px] max-w-[318px]">
+                <img src={img5}/>
+                <div></div>
+            </div>
+            <div className="min-h-[526px] max-w-[318px]">
+                <img src={img6}/>
+                <div></div>
+            </div>
+            <div className="min-h-[526px] max-w-[318px]">
+                <img src={img7}/>
+                <div></div>
+            </div>
+            <div className="min-h-[526px] max-w-[318px]">
+                <img src={img8}/>
+                <div></div>
+            </div>
+        </div>
     </div>
 </div>
-        </>
+        </BrowserRouter>
     )
 }
 export default Part5
