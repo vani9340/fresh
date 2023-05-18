@@ -4,8 +4,8 @@ import star from './images5/stars.svg'
 function Part4(){
     return(
         <>
-      <div class='min-h-[828px] mt-[127px] bg-gradient-to-b from-[#CFA485]'>
-        <div class='flex justify-'>
+      <div class='min-h-[828px] mt-[127px] bg-gradient-to-b from-[#CFA485] from-[68.72%]'>
+        <div class='flex justify-between items-center pl-[10.347vw] pr-[1.6666vw]'>
         {/* text */}
 <div>
 <h1 class='text-white font-frank_ruhi font-bold max-w-[437px] text-[4rem] leading-[5.1643rem]'>
