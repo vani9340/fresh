@@ -6,12 +6,12 @@ import Dropdown from './dropdown'
 function Nav(){
     return(
 <BrowserRouter>
-    <nav class='flex justify-between pl-[1.6vw] pr-[1.38vw]'>
+    <nav class='flex justify-between pl-[2vw] pr-[1.38vw]'>
         <div class='font-semibold text-[1.5rem]'>
         Fresh
         </div>
 
-        <div class='hidden'>
+        <div class='max-sm:hidden '>
         <Link>Men</Link>
         <Link>Woman</Link>
         <Link>Kids</Link>
