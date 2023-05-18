@@ -14,27 +14,28 @@ import {HashLink as Link} from 'react-router-hash-link'
 function Part5(){
     return(
         <BrowserRouter>
-<div>
-    <h1>Our Product</h1>
-    <div className="flex">
-        <Link>HOT</Link>
-        <Link>ON SALE</Link>
-        <Link>TRENDING NOW</Link>
+<div class='pl-[4.166vw] pr-[0.695vw]'>
+<div class='flex flex-col justify-center items-center '>
+    <h1 class=' mt-[49px] font-bold font-frank_ruhi text-[4rem] max-w-[362px] min-h-[120px]'>Our Product</h1>
+    <div className="flex max-w-[676px] min-h-[36px]  justify-between font-bold text-[1.5rem] leading-[36px]">
+        <Link class='hover:border-b-[3px] mr-[61px]'>HOT</Link>
+        <Link class='hover:border-b-[3px] mr-[61px]'>ON SALE</Link>
+        <Link class='hover:border-b-[3px] mr-[61px]'>TRENDING NOW</Link>
         <Link>NEW ARRIVAL</Link>
     </div>
-
-    <div>
+</div>
+    <div class='mt-[151px]'>
     {/* img part 1 */}
-        <div className='flex'>
+        <div className='flex justify-between'>
 {/* img1 */}
 <div className="min-h-[551px] max-w-[366px]">
 <img src={img1}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1>Sweater Shirt</h1>
-  <div>
-    <h1>$45.99</h1>
-    <h1>$35.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>Sweater Shirt</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$45.99</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$35.99</h1>
   </div>
 </div>
 </div>  
@@ -44,10 +45,10 @@ function Part5(){
 <img src={img2}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1>Pastel Long Sleeve</h1>
-  <div>
-    <h1>$55</h1>
-    <h1>$44.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>Pastel Long Sleeve</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$55</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$44.99</h1>
   </div>
 </div>
 </div>  
@@ -57,10 +58,10 @@ function Part5(){
 <img src={img3}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1>T-Shirt orange</h1>
-  <div class='flex'>
-    <h1>$29.99</h1>
-    <h1>$15.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>T-Shirt orange</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$29.99</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$15.99</h1>
   </div>
 </div>
 </div>  
@@ -70,10 +71,10 @@ function Part5(){
 <img src={img4}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1>Blue Bombers</h1>
-  <div>
-    <h1>$69.99</h1>
-    <h1>$49.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>Blue Bombers</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$69.99</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$44.99</h1>
   </div>
 </div>
 </div>  
@@ -83,16 +84,16 @@ function Part5(){
 
         
         {/* images 2nd part */}
-        <div className='flex'>
+        <div className='flex justify-between'>
 {/* img-5 */}
 <div className="min-h-[551px] max-w-[366px]">
 <img src={img5}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1>Jeans Jacket</h1>
-  <div>
-    <h1>$125</h1>
-    <h1>$99.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>Jeans Jacket</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$125</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$99.99</h1>
   </div>
 </div>
 </div>  
@@ -102,10 +103,10 @@ function Part5(){
 <img src={img6}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1>Denim shirt</h1>
-  <div>
-    <h1>$100</h1>
-    <h1>$74.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>Denim shirt</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$100</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$74.99</h1>
   </div>
 </div>
 </div>  
@@ -115,10 +116,10 @@ function Part5(){
 <img src={img7}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1>Red Suede sweater</h1>
-  <div>
-    <h1>$29.99</h1>
-    <h1>$19.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>Red Suede sweater</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$29.99</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$19.99</h1>
   </div>
 </div>
 </div>        
@@ -128,10 +129,10 @@ function Part5(){
 <img src={img8}/>
 <div class='bg-white'>
   <img src={stars}/>
-  <h1 class=''>Leather Brown Jacket</h1>
-  <div class='flex'>
-    <h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$90.65</h1>
-    <h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$79.99</h1>
+  <h1 className='font-semibold text-[1.375rem]'>Leather Brown Jacket</h1>
+<div class='flex gap-[39px]'>
+<h1 class='text-[#C4C4C4] text-[1.5rem] leading-[2.25rem] font-normal'>$90.65</h1>
+<h1 class='text-[1.5rem] leading-[2.25rem] font-normal'>$79.99</h1>
   </div>
 </div>
 </div>  
